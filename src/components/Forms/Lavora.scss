@@ -1,0 +1,96 @@
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    height: 24vw;
+    width: 100vw;
+}
+
+.container-lavora {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    @media only screen and (max-width: 900px) {
+        padding-bottom: 5rem;
+        // height: 90vh;
+        @media only screen and (max-height: 800px) {
+            // height: 85vh;
+        }
+    }
+    p {
+        font-size: 1.3rem;
+        line-height: 1;
+        font-weight: 400;
+        text-align: justify;
+    }
+    .shift {
+        padding: 0 2vw;
+        margin: 2.5vw 0;
+        font-style: italic;
+        font-weight: 800;
+        line-height: 0.5;
+        h2 {
+            font-size: 1.6rem;
+            font-style: italic;
+            font-weight: 800;
+        }
+        span {
+        font-size: 1.6rem;
+        font-weight: 800;
+        color: #3ae5fd;
+    }
+    }
+    .mobile-landscape {
+        overflow-y: auto;
+        height: 90vh;
+        div:first-of-type {
+        @media only screen and (min-width: 900px) {
+            padding-right: 1vw;
+        }
+    }
+    }
+    #tablet-down {
+            margin-top: unset;
+            overflow: unset;
+    }
+    
+}
+
+.main {
+    margin-top: 10rem;
+}
+
+#text_portrait {
+    margin: 10rem 3rem 0 3rem;
+    text-align: justify;
+    @media only screen and (max-width: 767px){
+        margin: 3rem 1rem 0 1rem;
+        .shift {
+            line-height: 0.7;
+            h2 {
+                margin: 1rem 0;
+            }
+        }
+    }
+    p {
+        line-height: 1;
+    }
+    
+}
+
+
+
+#contactform {
+    .wrapper {
+        overflow: unset;
+        .desktop {
+            justify-content: unset;
+        }
+        #desktop {
+            margin-left: 0;
+        }
+        #submit {
+            margin-right: 0;
+        }
+    }
+}

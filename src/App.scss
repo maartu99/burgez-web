@@ -1,0 +1,23 @@
+body {
+    color: gray;
+    // height: 100vh;
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) 
+    and (orientation : landscape)
+    and (-webkit-min-device-pixel-ratio: 2) { height: 100vh;}
+    font-family: 'Kanit', sans-serif;
+	font-weight: 800;
+    .carousel .slide {
+        background: #3ae5fd;
+    
+    img {
+        height: 100vh;
+        object-fit: cover;
+    }
+}
+
+}
+.carousel .control-dots {
+    padding: 0;
+}

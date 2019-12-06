@@ -1,0 +1,272 @@
+#mobile-container,#desktop-container {
+    background: #3ae5fd;
+    height: 100vh;
+    position: relative;
+    top: 8rem;
+    @media only screen and (max-height:820px) {
+        // top: 6rem;
+        // padding-top: 2rem;
+        height: unset;
+        top: unset;
+        padding-top: 0rem;
+    }
+    @media only screen and (max-height:820px) and (min-width: 1024px){
+        top: 8rem;
+    }
+
+    .burgers,.menu {
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+        line-height: 0.7;
+        color: #3ae5fd;
+        text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+        span {
+            font-size: 2rem;
+        }
+        #top {
+            font-size: 2.5rem;
+        }
+        #top2 {
+            font-size: 2.5rem;
+        }
+        #nu {
+            font-size: 2.5rem;
+        }
+        @media only screen and (max-width:820px) and (max-height:820px) {
+            span,#top {
+                margin-left: 2vw;
+            }
+            #top2,#nu {
+                margin-left: 5vw;
+            }
+        }
+    }
+
+    .ingredients,.hamburgez,.cheeseburgez,.smokeburgez,.bigburgez,.chickenburgez,.hotdog,.fries,.drinks,.milkshake {
+        color: white;
+        background: #e50746;
+        border: 1px solid #f29299;
+        padding-left: 1rem;
+        // margin: 0 1rem;
+        margin: 0.5rem 0;
+        text-align: left;
+        strong {
+            font-size: 6vw;
+        }
+        @media only screen and (min-width: 1024px) {
+            strong {
+                font-size: 3vw;
+            }
+        }
+        #hotdog {
+            color: #ffed00;
+        }
+    }
+    .ingredients {
+        p {
+            margin: 0 0 5px 0;
+        }
+    }
+
+    ul {
+        padding: 0;
+        @media only screen and (max-width:820px) and (max-height:820px) {
+            margin: 0;
+        }
+        li {
+            color: white;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 1rem;
+            #price {
+                font-size: 1rem;
+                margin-left: 45px;
+                @media only screen and (min-height: 940px) {
+                    font-size: 1.4rem;
+                }
+            }
+            span {
+                // width: 1rem;
+                margin-left: 15px;
+            }
+        }
+        #price {
+            @media only screen and (min-height: 940px) {
+                font-size: 1.4rem;
+            }
+        }
+    }
+    #desk-price {
+        ul li {
+            @media only screen and (min-height: 940px) {
+            height: 1.5rem;
+            }
+        }
+    }
+
+    .price1m,.price2m,.price3m,.price4m {
+        margin-left: -15px;
+    }
+    .price5,.price5m {
+        ul {
+            li {
+                display: flex;
+                align-items: center;
+                height: 3rem;
+            }
+        } 
+    }
+
+            #pricechick {
+                font-size: 2rem;
+                align-items: center;
+            }
+
+    .hotdog-list {
+        ul li {
+            margin-left: 1rem;
+            color: #ffed00;
+            text-shadow: 1px 0 0 #ea390d, 0 -1px 0 #ea390d, 0 1px 0 #ea390d, -1px 0 0 #ea390d;
+            justify-content: flex-start;
+        }
+    }
+
+    .fries-list,.drinks-list,.milkshake-list {
+        ul li,p {
+            margin-left: 1rem;
+            color: #e50746;
+            text-shadow: 1px 0 0 #f7bab8, 0 -1px 0 #f7bab8, 0 1px 0 #f7bab8, -1px 0 0 #f7bab8;
+            justify-content: flex-start;
+            @media only screen and (min-height: 940px) {
+            height: 1.5rem;
+            font-size: 1.5rem;
+            }
+        }
+        p {
+            margin: 0 0 0 1rem;
+            text-align: left;
+        }
+    }
+
+    #milkprice {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.4rem;
+        @media only screen and (max-width: 700px) {
+            font-size: 1rem;
+        }
+    }
+
+    .descrip {
+        ul li {
+            color: white;
+            font-size: 0.7rem;
+            text-align: left;
+            justify-content: flex-start;
+        }
+    }
+    #hotprice {
+        color: white;
+        font-size: 16px;
+        margin: 0;
+        @media only screen and (min-height: 910px) {
+            font-size: 1.8vw;
+            margin: 0;
+        }
+    }
+
+#double {
+    // margin-right: 5px;
+}
+}
+
+#mobile-container {
+    // overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    @media only screen and (min-width: 700px) {
+        overflow-y : scroll;
+    }
+
+    @media only screen and (min-width: 700px) and (max-height: 400px) {
+        top: 5rem;
+        height: 58vh;
+    }
+}
+
+#desktop-container {
+    top: 10rem;
+    text-align: center;
+    list-style: none;
+    ul {
+        margin: 0;
+    }
+    #menubox {
+        background: white;
+        border: 1px solid #e50746;
+        h1 {
+            margin: 5px 0 0 0;
+            font-size: 3vw;
+            color: #e50746;
+            height: 2.5vw;
+        }
+        ul li {
+            height: 3rem;
+            font-size: 3vw;
+            text-shadow: 1px 0 0 #ea390d, 0 -1px 0 #ea390d, 0 1px 0 #ea390d, -1px 0 0 #ea390d;
+            justify-content: center;
+            &:last-child {
+                margin-bottom: 5px;
+            }
+        }
+        p {
+            font-size: 1.5vw;
+            margin: 0;
+            padding: 10px;
+            color: #e50746;
+        }
+    }
+    .hotdog-list {
+        ul li {
+            font-size: 2vw;
+            height: 2vw;
+        }
+    }
+    .descrip {
+        ul li {
+            font-size: 1vw;
+            height: 2vw;
+        }
+    }
+    .ingredients {
+        background: #e50746;
+    }
+}
+
+.middle {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    // justify-content: center;
+    .ingredients {
+        display: flex;
+        flex-flow: column;
+        #ingr {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            p {
+                font-size: 1.5vw;
+            }
+            @media only screen and (min-width: 1024px) {
+                strong {
+                    font-size: 2vw;
+                }
+            }
+        }
+    }
+}

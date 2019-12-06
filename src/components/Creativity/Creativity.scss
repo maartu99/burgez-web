@@ -1,0 +1,41 @@
+.creativity-container {
+    height: 100vh;
+    background: linear-gradient(#3ae5fd, #da2dfe);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .creativity-text {
+        width: 75vw;
+        @media only screen and(min-width: 1024px) {
+            width: 46vw;
+        }
+
+        .creativity-p {
+            color: #30343F;
+            font-size: 6vw;
+            @media only screen and(min-width: 1024px) {
+                font-size: 3vw;
+            }
+            .creativity-bold {
+                font-size: 8vw;
+                @media only screen and(min-width: 1024px) {
+                    font-size: 5vw;
+                }
+            }
+        }
+    }
+
+    .creativity-link {
+    }
+    & a {
+        font-size: 6vw;
+        @media only screen and(min-width: 1024px) {
+            font-size: 4vw;
+        }
+    }
+    & a:hover {
+        color: black;
+    }
+}

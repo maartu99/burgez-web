@@ -1,0 +1,45 @@
+nav {
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 10;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+
+.navbar {
+    background: transparent;
+	/* grid-area: navbar; */
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	padding: 5px 40px 5px 10px;
+	font-size: 1.5vw;
+	z-index: 5;
+}
+
+.circle {
+    height: 0.3vw;
+    width: 0.3vw;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+li > a:hover {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	/* color: black; */
+	color: white;
+    text-shadow: 1px 0 0 grey, 0 -1px 0 grey, 0 1px 0 grey, -1px 0 0 grey;
+    cursor: pointer;
+}
+
+.active {
+	color: black;
+}

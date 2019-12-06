@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>	
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta property="og:image" content="http://www.burgez.com/static/media/image_background4v2.3bcee43c.png" />
+    <!-- <meta name="viewport" content="minimal-ui"> -->
+    <link href="https://fonts.googleapis.com/css?family=Kanit:400,400i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>BURGEZ</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- A little help for the Netlify post-processing bots -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
+    </form>
+    <form name="lavora" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
+      <input type="file" name="fileUrl" />
+    </form>
+    <form name="proponici" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="tel" name="tel" />
+      <input type="email" name="email" />
+      <select name="tipoOfferente"></select>
+      <input type="text" name="address" />
+      <input type="text" name="civico" />
+      <input type="text" name="cap" />
+      <input type="text" name="city" />
+      <input type="radio" name="rProposta" />
+      <input type="radio" name="cannaFumaria" />
+      <input type="radio" name="cannaInstall" />
+      <input type="file" name="file" />
+      <input type="text" name="totaleAffitto" />
+      <input type="text" name="surface" />
+      <input type="text" name="vetrine" />
+      <textarea name="message"></textarea>
+      <input type="checkbox" name="terms" />
+    </form>
+
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- <script type="text/javascript" src="../src/components/Navbar/menu.js"></script> -->
+    <!-- <script type="javascript" src="../src/components/ios.js"></script> -->
+    <!-- <script type="javascript" src="../src/components/ios2.js"></script> -->
+
+
+  </body>
+</html>

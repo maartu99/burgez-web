@@ -1,0 +1,17 @@
+@keyframes pulse3 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      /* background-color: #FF4136; */
+      opacity: 1;
+    }
+    100% {
+      /* background-color: transparent; */
+      opacity: 0;
+    }
+  }
+
+.arrow-down {
+    animation: pulse3 2s infinite;
+}

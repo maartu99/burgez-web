@@ -1,0 +1,31 @@
+.logo a img {
+    width: 15rem;
+    /* position: fixed; */
+    top: 0;
+    z-index: 2;
+}
+
+.logoMain a img {
+    width: 15rem;
+    top: 30px;
+    z-index: 2;
+    position: fixed;
+}
+
+@media only screen and (max-width: 740px) {
+    .logo a img {
+        width: 10rem;
+    }
+    .logoMain a img {
+        width: 10rem;
+    }
+}
+
+@media only screen and (max-height: 450px) {
+    .logo a img {
+        width: 10rem;
+    }
+    .logoMain a img {
+        width: 10rem;
+    }
+}
