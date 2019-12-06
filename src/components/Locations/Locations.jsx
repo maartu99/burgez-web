@@ -106,7 +106,10 @@ export default class Locations extends Component {
                             iframe='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.9056936603256!2d9.18478781596055!3d45.45155647910086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c405b9bd60f1%3A0x8ed2cad8bb177c48!2sViale+Bligny%2C+2%2C+20136+Milano+MI!5e0!3m2!1sit!2sit!4v1564393533601!5m2!1sit!2sit'
                             mobile
                             >
-                            <li>Apriamo a Dicembre</li>
+                            <li>Zona Bocconi</li>
+                            <li>7/7</li>
+                            <li>DAL LUNEDì ALLA DOMENICA</li>
+                            <li>11:00-00:00</li>
                         </LocationComponent>
                         <LocationComponent
                             title='VIA BERGAMO 1 ANGOLO VIALE MONTENERO 48'
@@ -204,7 +207,10 @@ export default class Locations extends Component {
                                 mapPinWidth='6vw'
                                 iframe='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.9056936603256!2d9.18478781596055!3d45.45155647910086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c405b9bd60f1%3A0x8ed2cad8bb177c48!2sViale+Bligny%2C+2%2C+20136+Milano+MI!5e0!3m2!1sit!2sit!4v1564393533601!5m2!1sit!2sit'
                                 >
-                                <li>Apriamo a Dicembre</li>
+                                <li>Zona Bocconi</li>
+                                <li>7/7</li>
+                                <li>DAL LUNEDì ALLA DOMENICA</li>
+                                <li>11:00-00:00</li>
                             </LocationComponent>
                             <LocationComponent
                                 title='VIA BERGAMO 1 ANGOLO VIALE MONTENERO 48'
