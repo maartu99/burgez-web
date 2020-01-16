@@ -118,10 +118,7 @@ export default class Locations extends Component {
                             style={{paddingBottom: "7rem"}}
                             mobile
                             >
-                            <li>Zona Cinque Giornate</li>
-                            <li>7/7</li>
-                            <li>DAL LUNEDì ALLA DOMENICA</li>
-                            <li>12:00-15:00 - 18:00-00:00</li>
+                                <li>Apriamo a Dicembre.</li>
                         </LocationComponent>
                     </div>
                 </Breakpoint>
